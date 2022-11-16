@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'centos-latest'
 
 steps:
 - task: Maven@3
